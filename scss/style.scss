@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#player{
+    // background-color: red;
+    background-image: url(../img/templerun/Idle__000.png);
+    background-size:contain;
+    background-repeat: no-repeat;
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    bottom: 550px;
+    // left: 100px;
+}
+body{
+    height: 100vh; //view port height - vh
+    overflow: hidden;
+    background-image: url(../img/templerun/graveyardtilesetnew/png/BG.png);
+    background-size: contain;
+    
+}
+#ground{
+    height: 150px;
+    background-image: url(../img/templerun/graveyardtilesetnew/png/Tiles/Tile\ \(2\).png);
+    background-repeat: repeat-x;
+    // background-color: yellow;
+    position: absolute;
+    background-size: contain;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.turn{
+    transform:rotateY(180deg);
+}
